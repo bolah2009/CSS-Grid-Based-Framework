@@ -1,0 +1,30 @@
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+/*Display property for medium screen (>= 576px)*/
+/* None */
+.none-s {
+    display: none;
+}
+/* Block and inline block */
+.block-s {
+    display: block;
+}
+.inline-block-s {
+    display: inline-block;
+}
+/* Flex and in-line flex */
+.flex-s {
+    display: flex;
+}
+.in-flex-s {
+    display: inline-flex;
+}
+.row-s {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.column-s {
+    display: flex;
+    flex-direction: column;
+}
+}

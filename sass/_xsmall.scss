@@ -1,0 +1,30 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query required !
+/*Display property for screen extra small screen (<576px*/
+/* None */
+.none {
+    display: none;
+}
+/* Block and inline block */
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
+/* Flex and in-line flex */
+.flex {
+    display: flex;
+}
+.in-flex {
+    display: inline-flex;
+}
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+//

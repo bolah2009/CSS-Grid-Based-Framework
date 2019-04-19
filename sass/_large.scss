@@ -1,0 +1,133 @@
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+/*Display property for screen extra small screen (<576px*/
+
+/* None */
+
+.none {
+    display: none;
+}
+
+/* Block and inline block */
+
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/* Flex and in-line flex */
+
+.flex {
+    display: flex;
+}
+
+.in-flex {
+    display: inline-flex;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+/*Display property for screen small screen (>= 576px)*/
+
+@media (min-width: 576px) { 
+
+/* None */
+
+.none-s {
+    display: none;
+}
+
+/* Block and inline block */
+
+
+.block-s {
+    display: block;
+}
+
+.inline-block-s {
+    display: inline-block;
+}
+
+/* Flex and in-line flex */
+
+.flex-s {
+    display: flex;
+}
+
+.in-flex-s {
+    display: inline-flex;
+}
+
+.row-s {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.column-s {
+    display: flex;
+    flex-direction: column;
+}
+
+}
+
+
+
+/*Display property for screen small screen (>= 576px)*/
+
+@media (min-width: 576px) { 
+
+/* None */
+
+.none-s {
+    display: none;
+}
+
+/* Block and inline block */
+
+
+.block-s {
+    display: block;
+}
+
+.inline-block-s {
+    display: inline-block;
+}
+
+/* Flex and in-line flex */
+
+.flex-s {
+    display: flex;
+}
+
+.in-flex-s {
+    display: inline-flex;
+}
+
+.row-s {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.column-s {
+    display: flex;
+    flex-direction: column;
+}
+
+}
