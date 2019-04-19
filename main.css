@@ -1,0 +1,356 @@
+/*Display property for screen extra small screen (<576px*/
+/* None */
+.none {
+  display: none;
+}
+
+/* Block and inline block */
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Flex and in-line flex */
+.flex {
+  display: flex;
+}
+
+.in-flex {
+  display: inline-flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.column-1 {
+  width: 8.333333333%;
+}
+
+.column-2 {
+  width: 16.666666667%;
+}
+
+.column-3 {
+  width: 25%;
+}
+
+.column-4 {
+  width: 33.333333332%;
+}
+
+.column-5 {
+  width: 41.666666665%;
+}
+
+.column-6 {
+  width: 50%;
+}
+
+.column-7 {
+  width: 58.333333331%;
+}
+
+.column-8 {
+  width: 66.666666664%;
+}
+
+.column-9 {
+  width: 74.999999997%;
+}
+
+.column-10 {
+  width: 83.33333333%;
+}
+
+.column-11 {
+  width: 91.666666663%;
+}
+
+.column-12 {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  /*Display property for small screen (>= 576px)*/
+  /* None */
+  .none-s {
+    display: none;
+  }
+
+  /* Block and inline block */
+  .block-s {
+    display: block;
+  }
+
+  .inline-block-s {
+    display: inline-block;
+  }
+
+  /* Flex and in-line flex */
+  .flex-s {
+    display: flex;
+  }
+
+  .in-flex-s {
+    display: inline-flex;
+  }
+
+  .row-s {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .column-s {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-1-s {
+    width: 8.333333333%;
+  }
+
+  .column-2-s {
+    width: 16.666666667%;
+  }
+
+  .column-3-s {
+    width: 25%;
+  }
+
+  .column-4-s {
+    width: 33.333333332%;
+  }
+
+  .column-5-s {
+    width: 41.666666665%;
+  }
+
+  .column-6-s {
+    width: 50%;
+  }
+
+  .column-7-s {
+    width: 58.333333331%;
+  }
+
+  .column-8-s {
+    width: 66.666666664%;
+  }
+
+  .column-9-s {
+    width: 74.999999997%;
+  }
+
+  .column-10-s {
+    width: 83.33333333%;
+  }
+
+  .column-11-s {
+    width: 91.666666663%;
+  }
+
+  .column-12-s {
+    width: 100%;
+  }
+
+  /*Position property*/
+}
+@media (min-width: 768px) {
+  /*Display property for medium screen (>= 576px)*/
+  /* None */
+  .none-m {
+    display: none;
+  }
+
+  /* Block and inline block */
+  .block-m {
+    display: block;
+  }
+
+  .inline-block-m {
+    display: inline-block;
+  }
+
+  /* Flex and in-line flex */
+  .flex-m {
+    display: flex;
+  }
+
+  .in-flex-m {
+    display: inline-flex;
+  }
+
+  .row-m {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .column-m {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .column-1-m {
+    width: 8.333333333%;
+  }
+
+  .column-2-m {
+    width: 16.666666667%;
+  }
+
+  .column-3-m {
+    width: 25%;
+  }
+
+  .column-4-m {
+    width: 33.333333332%;
+  }
+
+  .column-5-m {
+    width: 41.666666665%;
+  }
+
+  .column-6-m {
+    width: 50%;
+  }
+
+  .column-7-m {
+    width: 58.333333331%;
+  }
+
+  .column-8-m {
+    width: 66.666666664%;
+  }
+
+  .column-9-m {
+    width: 74.999999997%;
+  }
+
+  .column-10-m {
+    width: 83.33333333%;
+  }
+
+  .column-11-m {
+    width: 91.666666663%;
+  }
+
+  .column-12-m {
+    width: 100%;
+  }
+}
+/*Display property for screen extra small screen (<576px*/
+/* None */
+.none {
+  display: none;
+}
+
+/* Block and inline block */
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* Flex and in-line flex */
+.flex {
+  display: flex;
+}
+
+.in-flex {
+  display: inline-flex;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Display property for screen small screen (>= 576px)*/
+@media (min-width: 576px) {
+  /* None */
+  .none-s {
+    display: none;
+  }
+
+  /* Block and inline block */
+  .block-s {
+    display: block;
+  }
+
+  .inline-block-s {
+    display: inline-block;
+  }
+
+  /* Flex and in-line flex */
+  .flex-s {
+    display: flex;
+  }
+
+  .in-flex-s {
+    display: inline-flex;
+  }
+
+  .row-s {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .column-s {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*Display property for screen small screen (>= 576px)*/
+@media (min-width: 576px) {
+  /* None */
+  .none-s {
+    display: none;
+  }
+
+  /* Block and inline block */
+  .block-s {
+    display: block;
+  }
+
+  .inline-block-s {
+    display: inline-block;
+  }
+
+  /* Flex and in-line flex */
+  .flex-s {
+    display: flex;
+  }
+
+  .in-flex-s {
+    display: inline-flex;
+  }
+
+  .row-s {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .column-s {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -2,29 +2,65 @@
 @media (min-width: 768px) {
 /*Display property for medium screen (>= 576px)*/
 /* None */
-.none-s {
+.none-m {
     display: none;
 }
 /* Block and inline block */
-.block-s {
+.block-m {
     display: block;
 }
-.inline-block-s {
+.inline-block-m {
     display: inline-block;
 }
 /* Flex and in-line flex */
-.flex-s {
+.flex-m {
     display: flex;
 }
-.in-flex-s {
+.in-flex-m {
     display: inline-flex;
 }
-.row-s {
+.row-m {
     display: flex;
     flex-wrap: nowrap;
 }
-.column-s {
+.column-m {
     display: flex;
     flex-direction: column;
+}
+.column-1-m {
+    width: 8.333333333%;
+}
+.column-2-m {
+    width: 16.666666667%;
+}
+.column-3-m {
+    width: 25%;
+}
+.column-4-m {
+    width: 33.333333332%;
+}
+.column-5-m {
+    width: 41.666666665%;
+}
+.column-6-m {
+    width: 50%;
+}
+.column-7-m {
+    width: 58.333333331%;
+}
+.column-8-m {
+    width: 66.666666664%;
+}
+.column-9-m {
+    width: 74.999999997%;
+}
+.column-10-m {
+    width: 83.33333333%;
+}
+.column-11-m {
+    width: 91.666666663%;
+}
+.column-12-m {
+    width: 100%;
 }
 }

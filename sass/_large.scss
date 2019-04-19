@@ -1,133 +1,30 @@
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-/*Display property for screen extra small screen (<576px*/
-
+@media (min-width: 992px) {
+/*Display property for large screen (>= 576px)*/
 /* None */
-
-.none {
+.none-l {
     display: none;
 }
-
 /* Block and inline block */
-
-
-.block {
+.block-l {
     display: block;
 }
-
-.inline-block {
+.inline-block-l {
     display: inline-block;
 }
-
 /* Flex and in-line flex */
-
-.flex {
+.flex-l {
     display: flex;
 }
-
-.in-flex {
+.in-flex-l {
     display: inline-flex;
 }
-
-.row {
+.row-l {
     display: flex;
     flex-wrap: nowrap;
 }
-
-.column {
+.column-l {
     display: flex;
     flex-direction: column;
 }
-
-
-
-
-
-/*Display property for screen small screen (>= 576px)*/
-
-@media (min-width: 576px) { 
-
-/* None */
-
-.none-s {
-    display: none;
-}
-
-/* Block and inline block */
-
-
-.block-s {
-    display: block;
-}
-
-.inline-block-s {
-    display: inline-block;
-}
-
-/* Flex and in-line flex */
-
-.flex-s {
-    display: flex;
-}
-
-.in-flex-s {
-    display: inline-flex;
-}
-
-.row-s {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.column-s {
-    display: flex;
-    flex-direction: column;
-}
-
-}
-
-
-
-/*Display property for screen small screen (>= 576px)*/
-
-@media (min-width: 576px) { 
-
-/* None */
-
-.none-s {
-    display: none;
-}
-
-/* Block and inline block */
-
-
-.block-s {
-    display: block;
-}
-
-.inline-block-s {
-    display: inline-block;
-}
-
-/* Flex and in-line flex */
-
-.flex-s {
-    display: flex;
-}
-
-.in-flex-s {
-    display: inline-flex;
-}
-
-.row-s {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.column-s {
-    display: flex;
-    flex-direction: column;
-}
-
 }
