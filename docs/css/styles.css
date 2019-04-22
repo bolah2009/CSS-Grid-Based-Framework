@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "Norse";
+    src: url("../assets/Norse-Bold.otf");
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../assets/opensans.woff2");
+}
+
+h1,
+h2,
+h3 {
+    color: #4a4a4a;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.logo-heading {
+    font-family: 'Norse', sans-serif;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 15px;
+    margin: 0;
+    color: #cc9543;
+    text-transform: uppercase;
+    font-family: "Norse";
+    letter-spacing: 0.4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo-heading-link:hover {
+    text-decoration: none;
+}
+
+.odin-logo-img {
+    height: 60px;
+}
+
+.menu-logo-icon {
+    height: ;
+}
+
+.html-badge {
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+.html-badge-img {
+    width: 80px;
+    height: 80px;
+}
+
+.page_heading {
+    text-align: center;
+    font-weight: 300;
+}
