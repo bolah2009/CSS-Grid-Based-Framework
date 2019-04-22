@@ -1,57 +1,170 @@
 @font-face {
-    font-family: "Norse";
-    src: url("../assets/Norse-Bold.otf");
+  font-family: "Norse";
+  src: url("../assets/Norse-Bold.otf");
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../assets/opensans.woff2");
+  font-family: "Open Sans";
+  src: url("../assets/opensans.woff2");
+}
+
+body {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
 }
 
 h1,
 h2,
 h3 {
-    color: #4a4a4a;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+  padding: 5px 20px;
 }
 
 .logo-heading {
-    font-family: 'Norse', sans-serif;
-    text-decoration: none;
-    font-size: 24px;
-    padding-left: 15px;
-    margin: 0;
-    color: #cc9543;
-    text-transform: uppercase;
-    font-family: "Norse";
-    letter-spacing: 0.4px;
-    font-weight: bold;
-    cursor: pointer;
+  font-family: 'Norse', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  padding-left: 15px;
+  margin: 0;
+  color: #cc9543;
+  text-transform: uppercase;
+  font-family: "Norse";
+  letter-spacing: 0.4px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .logo-heading-link:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .odin-logo-img {
-    height: 60px;
+  height: 60px;
+}
+
+.main-section {
+  padding-bottom: 60px;
 }
 
 .menu-logo-icon {
-    height: ;
+  color: grey;
+  font-size: 20px;
 }
 
 .html-badge {
-    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+  box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  margin-top: 30px;
+  width: 80px;
+  height: 80px;
 }
 
 .html-badge-img {
-    width: 80px;
-    height: 80px;
+  padding: 10px;
+  width: 80px;
+  height: 80px;
 }
 
-.page_heading {
-    text-align: center;
-    font-weight: 300;
+.page-heading {
+  font-weight: 300;
+  font-size: 2.25rem;
+  margin-top: 30px;
+  letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.page-sub-heading {
+  color: #ce973e;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.main-a-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 50px 0 20px;
+}
+
+.intro-anchor {
+  color: #4a4a4a;
+}
+
+.intro-anchor:hover {
+  color: black;
+}
+
+.paragraph {
+  margin-bottom: 30px;
+  line-height: 1.9;
+  color: #4a4a4a;
+}
+
+.grey-container {
+  background-color: #f3f3f3;
+  padding: 1.5rem;
+  margin: 20px 0 50px 0;
+}
+
+.list {
+  padding-left: 1.5rem;
+}
+
+.list-item {
+  color: #4a4a4a;
+  margin: 15px 0;
+  font-size: 1.125rem;
+  line-height: 1.9;
+}
+
+.article-anchor {
+  color: #cc9543;
+  text-decoration: underline;
+}
+
+.article-anchor:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.grey-area-heading {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #4a4a4a;
+  font-size: 18px;
+  letter-spacing: 0.3px;
+}
+
+.grey-area-heading:first-of-type {
+  margin-top: 50px;
+}
+
+.details {
+  margin-bottom: 30px;
+}
+
+.summary {
+  color: rgba(74,74,74,0.7);
+  font-size: 1.125rem;
+}
+
+.alone-list {
+  padding-left: 1.125rem;
+  margin-bottom: 50px;
+}
+
+.alone-list-item {
+  color: rgba(74,74,74,0.7);
+    font-size: 1.125rem;
+}
+
+.lessons-section {
+
 }
