@@ -1,11 +1,25 @@
 @font-face {
     font-family: "Norse";
-    src: url("../assets/Norse-Bold.otf");
+    src: url("../assets/fonts/Norse-Bold.otf");
 }
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("../assets/opensans.woff2");
+    font-family: "Open Sans Bold";
+    src: url("../assets/fonts/OpenSans-Bold.woff2");
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Open Sans Light";
+    src: url("../assets/fonts/OpenSans-Light.woff2");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("../assets/fonts/OpenSans-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
 }
 
 body {
@@ -18,7 +32,7 @@ h1,
 h2,
 h3 {
     color: #4a4a4a;
-    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-family: "Open Sans Light", Helvetica, Arial, sans-serif;
 }
 
 .header {
@@ -45,7 +59,7 @@ h3 {
 .card {
     box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    margin-bottom: 40px;
+    margin: 0 15px 40px 15px;
 }
 
 .navbar {
@@ -74,20 +88,24 @@ h3 {
     height: 60px;
 }
 
+.main-container {
+    margin-top: 110px;
+}
+
 .main-section {
   max-width: 540px;
   padding-bottom: 60px;
 }
 
 .menu-logo-icon {
-    color: grey;
+    color:#6abfc3;
     font-size: 20px;
 }
 
 .html-badge {
     box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    margin-top: 110px;
+    margin: 0 auto;
     width: 80px;
     height: 80px;
 }
