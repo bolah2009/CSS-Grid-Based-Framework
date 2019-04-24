@@ -19,7 +19,7 @@ The grid system was developed using CSS Flex-box properties.
 #### Screenshot of [clone website](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework) used
 
 ##### Small Screen 
-![Live ScreenShot for minimum screen width of 0px](https://res.cloudinary.com/bolaah/image/upload/v1556126659/github-microverse-project/css-grid-based/Grid-BasedFramework-s.png)
+![Live ScreenShot for minimum screen width of 0px](https://res.cloudinary.com/bolaah/image/upload/v1556126659/github-microverse-project/css-grid-based/Grid-Based-Framework-s.png)
 
 ### Medium Screen
 ![Live ScreenShot for minimum screen width of 768px](https://res.cloudinary.com/bolaah/image/upload/v1556126661/github-microverse-project/css-grid-based/Grid-Based-Framework-m.png)
