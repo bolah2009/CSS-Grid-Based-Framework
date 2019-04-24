@@ -422,7 +422,7 @@ ul {
 
     .navbar {
         margin-top: 18px;
-        padding: 0 40px;
+        padding: 0 20px;
     }
 
     .menu-list {
@@ -454,40 +454,91 @@ ul {
     }
 
     .footer {
-      padding: 80px 0;
+        padding: 80px 0;
     }
 
     .footer .footer-logo .odin-logo-img {
-      margin-left: auto;
+        margin-left: auto;
     }
 
     .footer .footer-logo .logo-heading {
-      margin-right: auto;
+        margin-right: auto;
     }
 
     .footer-logo {
-      display: initial;
+        display: initial;
     }
 }
 
 @media (min-width: 992px) {
 
-  .main-container {
-    max-width: initial;
-  }
+    .main-container {
+        max-width: initial;
+    }
 
-  .left-navbar {
-    display: block;
-    position: sticky;
-    height: inherit;
-    top: 0;
-  }
+    .left-navbar {
+        display: block;
+        height: inherit;
+        padding-bottom: 60px;
+    }
 
-  .container-lessons {
-    max-width: 960px;
-  }
+    .left-navbar-list {
+        position: sticky;
+        top: 50px;
+        padding-bottom: 50px;
+    }
 
-  .main-card-button {
-    height: 86px;
-  }
+    .left-navbar-list-item {
+        margin-bottom: 32px;
+    }
+
+    .left-navbar-list-item-circle {
+        border-radius: 50%;
+        background: rgba(74, 74, 74, 0.7);
+        width: 16px;
+        height: 16px;
+    }
+
+    .left-navbar-list-item-text {
+        color: rgba(74, 74, 74, 0.7);
+        font-size: 13px;
+        letter-spacing: 0.2px;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+
+    .left-navbar-list-item-text .active {
+        color: #000;
+        font-weight: bold;
+    }
+
+    .left-navbar-list-item-circle.active {
+        background-color: #000;
+    }
+
+    .left-navbar-list-item-text a:hover {
+        color: #000;
+    }
+
+    .left-navbar-list-item-text a {
+        color: inherit;
+        text-decoration: none;
+    }
+
+    .menu-list-item {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .container-lessons {
+        max-width: 960px;
+    }
+
+    .main-card-button {
+        height: 86px;
+    }
+
+    .ad-card-second-img {
+        margin: 0;
+    }
 }

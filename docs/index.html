@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Project: Design Your Own Grid-Based Framework</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="../main.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,7 +14,7 @@
 
   <header class="header">
     <nav class="navbar container jc-between ai-center row jc-center-m">
-      <a class="inline-block row ai-center logo-heading-link">
+      <a class="inline-block row ai-center logo-heading-link" href="#">
         <img class="odin-logo-img" src="assets/odin-logo.svg" alt="Odin Logo">
         <p class="logo-heading">The Odin Project</p>
       </a>
@@ -47,35 +48,44 @@
         <div class="row">
 
           <nav class="left-navbar none column-3-l">
-
-            <ul>
-              <li>Introduction</li>
-              <li>Assignment</li>
-              <li>Additional Resources</li>
+            <ul class="left-navbar-list">
+              <li class="left-navbar-list-item row-l ai-center-l">
+                <div class="left-navbar-list-item-circle active"></div>
+                <div class="left-navbar-list-item-text"><a class="active" href="#introduction">Introduction</a> </div>
+              </li>
+              <li class="left-navbar-list-item row-l ai-center-l">
+                <div class="left-navbar-list-item-circle"></div>
+                <div class="left-navbar-list-item-text"><a href="#assignment">Assignment</a> </div>
+              </li>
+              <li class="left-navbar-list-item row-l ai-center-l">
+                <div class="left-navbar-list-item-circle"></div>
+                <div class="left-navbar-list-item-text"><a href="#additional-resources">Additional Resources</a> </div>
+              </li>
             </ul>
-
           </nav>
 
           <div class="main-section column-9-l">
 
-            <article class="">
+            <article id="introduction">
 
               <h4 class="main-a-heading">
-                <a class="intro-anchor" href="#">Introduction</a>
+                <a class="intro-anchor" href="#introduction">Introduction</a>
               </h4>
 
-              <p class="paragraph">In this final project, you’ll get to take everything you’ve learned and use it to build
+              <p class="paragraph">In this final project, you’ll get to take everything you’ve learned and use it to
+                build
                 your own simple grid-based framework. As with the other final projects, we’ll keep it relatively
                 open-ended to give you a chance
                 to
                 exercise your
                 creativity and problem-solving skills. It will be a great project to show off to potential employers as
                 well.</p>
-
-              <p>Once you’re done setting up your framework, you will use it to clone any website you like. If you’re out
+              <p>Once you’re done setting up your framework, you will use it to clone any website you like. If you’re
+                out
                 of ideas, try cloning The Odin Project!</p>
-
-              <h4 class="main-a-heading"><a class="intro-anchor" href="#">Assignment</a></h4>
+            </article>
+            <article id="assignment">
+              <h4 class="main-a-heading"><a class="intro-anchor" href="#assignment">Assignment</a></h4>
 
               <p class="paragraph">You’ll be creating your own grid-based framework.</p>
 
@@ -83,15 +93,19 @@
 
                 <ol class="list">
                   <li class="list-item">Follow the instructions atop the <a class="article-anchor" href="#">Google
-                      Homepage</a> project to set up a Github repository for this project (of course you’ll need to change
+                      Homepage</a> project to set up a Github repository for this project (of course you’ll need to
+                    change
                     the title).</li>
                   <li class="list-item">Create a new CSS document.</li>
                   <li class="list-item">Think about the major elements that are required of a framework. This includes a
-                    CSS reset, a fixed number of grids separated by “gutters”, a way to make new rows, and default values
+                    CSS reset, a fixed number of grids separated by “gutters”, a way to make new rows, and default
+                    values
                     for the font properties of
                     elements.</li>
-                  <li class="list-item">Write the CSS necessary to create a basic 12-column grid framework. Check out the
-                    <a class="article-anchor" href="#">960 Grid System documentation</a> for a look at how they do it. The
+                  <li class="list-item">Write the CSS necessary to create a basic 12-column grid framework. Check out
+                    the
+                    <a class="article-anchor" href="#">960 Grid System documentation</a> for a look at how they do it.
+                    The
                     complexity is up to you –
                     there’s no need to go too crazy with details
                     (you’re not trying to rebuild Bootstrap).</li>
@@ -102,7 +116,8 @@
 
                 <ol>
                   <li class="list-item">Create a new HTML document and a new Github repository.</li>
-                  <li class="list-item">Identify the webpage you’d like to clone and break it down into its major elements
+                  <li class="list-item">Identify the webpage you’d like to clone and break it down into its major
+                    elements
                     like we have in the previous projects.</li>
                   <li class="list-item">Add your framework to your project.</li>
                   <li class="list-item">Use your framework to lay out the structure of the page.</li>
@@ -116,7 +131,8 @@
               <h4 class="main-a-heading"><a class="intro-anchor" href="#">Student Solutions</a></h4>
 
               <p class="paragraph">Submit a link below to <a class="article-anchor" href="#">this file</a> on The Odin
-                Project’s curriculum GitHub repo with your files in it by using a pull request. See the section on <a class="article-anchor" href="#">Contributing</a> for how.</p>
+                Project’s curriculum GitHub repo with your files in it by using a pull request. See the section on <a
+                  class="article-anchor" href="#">Contributing</a> for how.</p>
 
               <details class="details">
 
@@ -136,10 +152,13 @@
                 </ul>
 
               </details>
+            </article>
+            <article id="additional-resources">
+              <h4 class="main-a-heading"><a class="intro-anchor" href="#additional-resources">Additional Resources</a>
+              </h4>
 
-              <h4 class="main-a-heading"><a class="intro-anchor" href="#">Additional Resources</a></h4>
-
-              <p class="paragraph">This section contains helpful links to other content. It isn’t required, so consider it
+              <p class="paragraph">This section contains helpful links to other content. It isn’t required, so consider
+                it
                 supplemental for if you need to dive deeper into something.</p>
 
               <ul class="alone-list">
@@ -184,11 +203,11 @@
             <button class="button ad-card-first-button" type="button" name="button5">Get Started</button>
           </div>
           <div class="ad-card-second column flex-row-l jc-center ai-center ai-stretch-m">
-            <div class="column flex-row-m column-5-l jc-center-m">
-              <a class="ad-card-second-link column-2-m" href="#">
+            <div class="column flex-row-m column-5-l jc-center-m ai-center-l">
+              <a class="ad-card-second-link column-2-m column-4-l" href="#">
                 <img class="ad-card-second-img" src="assets/thinkful-logo.svg" alt="thinkful logo">
               </a>
-              <p class="ad-card-second-title column-2-m">Thinkful</p>
+              <p class="ad-card-second-title column-2-m column-4-l">Thinkful</p>
             </div>
             <ul class="ad-card-second-list-group row-m jc-around-m column-8-l jc-end-l">
               <li class="ad-card-second-list column-4-m">
