@@ -14,7 +14,7 @@ The Project use the media query (break-point) with  `min-width: 400px`, `min-wid
 
 The grid system was developed using CSS Flex-box properties.
 
-#### [Live link](https://bolabuari.com/css-grid-based-framework)
+#### [Live link](https://raw.githack.com/bolah2009/CSS-Grid-Based-Framework/dev/docs/index.html)
 
 #### Screenshot of [clone website](https://www.theodinproject.com/courses/html5-and-css3/lessons/design-your-own-grid-based-framework) used
 
